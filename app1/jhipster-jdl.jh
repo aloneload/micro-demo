@@ -1,0 +1,9 @@
+
+/* Entities for Invoice microservice */
+entity Invoice {
+    code String required
+    date Instant required
+    details String
+    paymentDate Instant required
+    paymentAmount BigDecimal required
+}
